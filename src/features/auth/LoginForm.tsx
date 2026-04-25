@@ -46,6 +46,15 @@ export default function LoginForm() {
       >
         {isPending ? "Logging in..." : "Login"}
       </button>
+      <p className="text-center text-sm">
+        Don&apos;t have an account?{" "}
+        <span
+          className="text-blue-500 cursor-pointer"
+          onClick={() => router.push("/register")}
+        >
+          Register
+        </span>
+      </p>
     </form>
   );
 }
