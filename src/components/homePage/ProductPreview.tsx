@@ -9,7 +9,7 @@ export default function ProductPreview() {
                     Whether you run a startup or a large enterprise, our system scales with you.
                 </p>
 
-                <div className="mt-10 bg-gradient-to-br from-gray-100 to-gray-300 h-80 rounded-xl flex items-center justify-center">
+                <div className="mt-10 bg-linear-to-br from-gray-100 to-gray-300 h-80 rounded-xl flex items-center justify-center">
                     <p className="text-gray-600">Your Dashboard UI will appear here</p>
                 </div>
             </section>

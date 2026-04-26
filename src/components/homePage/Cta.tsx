@@ -1,6 +1,6 @@
 export default function Cta() {
     return (
-        <section className="py-20 px-6 text-center bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+        <section className="py-20 px-6 text-center bg-linear-to-r from-blue-500 to-purple-600 text-white">
             <h2 className="text-3xl font-bold">
                 Ready to Transform Your HR?
             </h2>
