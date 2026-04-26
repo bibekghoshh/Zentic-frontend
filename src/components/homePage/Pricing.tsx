@@ -1,6 +1,6 @@
 export default function Pricing() {
   return (
-    <section className="py-20 px-6 text-center">
+    <section id="pricing" className="py-20 px-6 text-center">
       <h2 className="text-3xl font-bold">Simple Pricing</h2>
 
       <div className="mt-10 grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">

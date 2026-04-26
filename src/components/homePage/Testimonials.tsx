@@ -15,7 +15,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="py-20 px-6 bg-gray-50">
+    <section className="py-24 px-6 bg-gray-50">
       <h2 className="text-3xl font-bold text-center">Loved by Teams</h2>
 
       <div className="mt-10 grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">

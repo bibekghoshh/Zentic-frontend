@@ -1,5 +1,6 @@
 import Navbar from "../components/homePage/Navbar";
 import Hero from "../components/homePage/Hero";
+import Stats from "../components/homePage/Stats";
 import Features from "../components/homePage/Features";
 import ProductPreview from "../components/homePage/ProductPreview";
 import Benefits from "../components/homePage/Benefits";
@@ -14,9 +15,14 @@ export default function HomePage() {
             <Navbar />
 
             {/* HERO */}
-            <FadeIn>
+            {/* <FadeIn> */}
                <Hero />
-            </FadeIn>
+            {/* </FadeIn> */}
+
+            {/* STATS */}
+           {/* <FadeIn> */}
+                <Stats />
+           {/* </FadeIn> */}
 
             {/* FEATURES */}
            <FadeIn>
