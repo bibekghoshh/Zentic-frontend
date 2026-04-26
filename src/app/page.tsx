@@ -1,12 +1,12 @@
-import Navbar from "@/components/homePage/Navbar";
-import Hero from "@/components/homePage/Hero";
-import Features from "@/components/homePage/Features";
-import ProductPreview from "@/components/homePage/ProductPreview";
-import Benefits from "@/components/homePage/Benefits";
-import Testimonials from "@/components/homePage/Testimonials";
-import Pricing from "@/components/homePage/Pricing";
-import FadeIn from "@/components/FadeIn";
-import Cta from "@/components/homePage/Cta";
+import Navbar from "../components/homePage/Navbar";
+import Hero from "../components/homePage/Hero";
+import Features from "../components/homePage/Features";
+import ProductPreview from "../components/homePage/ProductPreview";
+import Benefits from "../components/homePage/Benefits";
+import Testimonials from "../components/homePage/Testimonials";
+import Pricing from "../components/homePage/Pricing";
+import FadeIn from "../components/FadeIn";
+import Cta from "../components/homePage/Cta";
 
 export default function HomePage() {
     return (
