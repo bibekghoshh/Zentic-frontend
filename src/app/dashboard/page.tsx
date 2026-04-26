@@ -1,9 +1,14 @@
-import ProtectedRoute from "../../components/ProtectedRoute";
+// src/app/dashboard/page.tsx
 
-export default function Dashboard() {
+import DashboardLayout from "../../components/layout/DashboardLayout";
+// import ProtectedRoute from "../../components/ProtectedRoute";
+
+export default function DashboardPage() {
   return (
-    <ProtectedRoute>
-      <div>Dashboard</div>
-    </ProtectedRoute>
+    // <ProtectedRoute>
+      <DashboardLayout>
+        <h1 className="text-2xl font-bold">Welcome to Dashboard 🚀</h1>
+      </DashboardLayout>
+    // </ProtectedRoute>
   );
 }
