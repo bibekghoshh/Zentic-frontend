@@ -21,6 +21,7 @@ api.interceptors.response.use(
         await refreshToken(); // get new access token
         return api(originalRequest); // retry original request
       } catch (err) {
+        console.error("Token refresh failed:", err);
         window.location.href = "/login";
       }
     }

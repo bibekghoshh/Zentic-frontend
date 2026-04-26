@@ -3,11 +3,11 @@ export default function Hero() {
         <section className="relative text-center py-32 px-6 overflow-hidden">
 
             {/* background glow */}
-            <div className="absolute inset-0 -z-10 bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 blur-3xl opacity-50" />
+            <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-100 via-purple-100 to-pink-100 blur-3xl opacity-50" />
 
             <h1 className="text-6xl font-bold leading-tight tracking-tight">
                 Workforce Management <br />
-                <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
+                <span className="bg-linear-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
                     Reimagined
                 </span>
             </h1>
