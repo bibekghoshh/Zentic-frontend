@@ -1,10 +1,16 @@
+// src/app/scheduling/page.tsx
+
+import DashboardLayout from "../../components/layout/DashboardLayout";
+import ProtectedRoute from "../../components/ProtectedRoute";
+import ScheduleCalendar from "../../features/scheduling/components/ScheduleCalendar";
+
 export default function SchedulingPage() {
-    return (
-        <div className="max-w-5xl mx-auto py-10 px-4">
-            <h1 className="text-2xl font-bold">Scheduling</h1>
-            <p className="mt-4 text-gray-600">
-                This is the scheduling page. Here you can manage employee schedules, shifts, and time off requests.
-            </p>
-        </div>
-    );
+  return (
+    // <ProtectedRoute>
+      <DashboardLayout>
+        <h1 className="text-2xl font-bold mb-6">Scheduling</h1>
+        <ScheduleCalendar />
+      </DashboardLayout>
+    // </ProtectedRoute>
+  );
 }
